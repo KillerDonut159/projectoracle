@@ -73,6 +73,19 @@ li a:hover {
     background-color: #b12939;
     border-radius: 4px;
 }
+
+
+.schedcontainer {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.schedule {
+    background-color: #686868;
+    border-radius: 7px;
+    padding: 10px;
+}
 .carousel .carousel-item {
     height: 400px;
   }
