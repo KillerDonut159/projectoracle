@@ -74,12 +74,19 @@ li a:hover {
     border-radius: 4px;
 }
 
-
+.canvas {
+    background-color: #c75025;
+    color: white;
+}
 .schedcontainer {
   margin-right: auto;
   margin-left: auto;
 }
 
+.oraclebutton{
+    background-color: #000000;
+    color: white;
+}
 
 .schedule {
     background-color: #686868;

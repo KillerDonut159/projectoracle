@@ -80,55 +80,54 @@
   </nav>
 
   <div class="container mb-3 mt-4 mb-4">
-    <h1 class="display-4 fw-light">Add Event</h1>
+    <h1 class="display-4 fw-light">Integrate Schedule</h1>
   </div>
 
-  <div class="container mb-3 mt-4 mb-4">
-    <form action="/submit" method="POST" enctype="multipart/form-data">
-      <label for="type">Day:</label>
-      <select name="type" id="type">
-        <option value="monday">Monday</option>
-        <option value="tuesday">Tuesday</option>
-        <option value="wednesday">Wednesday</option>
-        <option value="thursday">Thursday</option>
-        <option value="friday">Friday</option>
-      </select>
-      <label for="description">Activity:</label>
-      <input type="text" id="activity" name="activity"><br><br>
-      <label for="description">Start Time:</label>
-      <input type="text" id="image1" name="image1"><br><br>
-      <label for="description">End Time:</label>
-      <input type="text" id="image2" name="image2"><br><br>
-      <input class="btn btn-info mb-1 mt-1" type="submit" value="Submit">
-    </form>
-
-    <div class="container mb-3 mt-4 mb-4">
-      <h1 class="display-7 fw-light">Events to be Added:</h1>
-    </div>
-
-    <div class=main>
-      <p>
-      <table style="width:100%;font-family:Trebuchet MS;">
-        <tr style="background-color:#f0f0f0a8">
-          <th>Day</th>
-          <th>Activity</th>
-          <th>Start Time</th>
-          <th>End Time</th>
-        </tr>
-        <tr>
-          <td>Monday</td>
-          <td>Get food</td>
-          <td>9:40 AM</td>
-          <td>10:40 PM</td>
-        </tr>
-        <tr>
-          <td>Tuesday</td>
-          <td>Watch Tornado</td>
-          <td>4:00 PM</td>
-          <td>5:00 PM</td>
-        </tr>
-
-    </div>
-</body>
-
-</html>
+<div>
+    <table class="table">
+        <thead>
+            <tr style="background-color:#f0f0f0a8">
+                <th class="text-center h4">Site to Integrate With</th>
+                <th class="text-center h4">Description</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td class="canvas text-center h4" style="background-color: #c75025;">Canvas</td>
+                    <td><p>Don't want to add each individual assignment from Canvas to your personal calendar? You no longer have to.</p></td>
+                    <td class="text-right">        
+                                <a href="https://canvas.instructure.com/login/canvas" class="btn canvas">
+                                    Connect
+                                </a>                           
+                    </td>
+                </tr>           
+                <tr>
+                    <td class="bg-primary text-white text-center h4">Microsoft Outlook Calendar</td>
+                    <td><p>Connect to your Microsoft Outlook Calendar to make your job slightly easier.</p></td>
+                    <td class="text-right">      
+                                <a href="https://login.live.com" class="btn btn-primary">
+                                    Sign In
+                                </a>                    
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-center">
+                        <a href="../templates/schedule.html" class="btn oraclebutton">
+                        View Current Schedule
+                        </a>
+                    </td>
+                    <td class="text-center">
+                        <a href="../templates/event.html" class="btn oraclebutton">
+                        Add Event
+                        </a>
+                    </td>
+                    <td class="text-right">      
+                        <a href="../templates/editevent.html" class="btn oraclebutton">
+                        Edit Event
+                        </a>                    
+            </td>
+                </tr>
+        </tbody>
+    </table>
+</div>  
